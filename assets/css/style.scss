@@ -2,3 +2,40 @@
 ---
 
 @import 'jekyll-theme-hacker';
+@import 'image-gallery';
+
+header {
+  a {
+    text-decoration: none;
+
+    img {
+      height: 100px;
+      vertical-align: top;
+    }
+
+    span {
+      font-family: 'Bangers', cursive;
+      font-size: 3.5em;
+    }
+  }
+
+  a + span {
+    display: block;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    top: -30px;
+    left: 120px;
+    font-size: 1.55em;
+  }
+}
+
+#main_content {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h1 + small {
+    font-size: 0.7em;
+    color: grey;
+  }
+}
