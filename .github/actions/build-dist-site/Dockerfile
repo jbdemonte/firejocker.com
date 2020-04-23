@@ -1,6 +1,6 @@
 # Our Docker image will be based on ruby:2-slim
 # it is a very light docker image.
-FROM ruby:2-slim
+FROM ruby:2.7.1-slim-buster
 LABEL author="Sujay Kundu"
 LABEL version="1.0.0"
 

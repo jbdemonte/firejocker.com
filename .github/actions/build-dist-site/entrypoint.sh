@@ -23,7 +23,7 @@ bundle install
 
 # Build the website using Jekyll
 echo "🏋️ Building website..."
-JEKYLL_ENV=production bundle exec jekyll build --trace
+JEKYLL_ENV=production LC_ALL="fr_FR.UTF-8" bundle exec jekyll build --trace
 echo "Jekyll build done"
 
 # Now lets go to the generated folder by Jekyll
