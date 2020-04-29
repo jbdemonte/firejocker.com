@@ -33,7 +33,7 @@ module Jekyll
 
       result =  "<div class='gallery-block columns-3'>\n<ul>"
       images.each do |image|
-        url = CGI.escape("#{full_path}/#{image}")
+        url = "#{full_path}/#{image}".gsub("'", %q(\\\'))
         alt = File.basename(image, File.extname(image)).unicode_normalize(:nfc)
         result += "<li><figure><img src='#{url}' alt='#{alt}' /></figure></li>"
       end
