@@ -2,7 +2,8 @@
 layout: post
 date: 2020-03-27
 title: Restauration & modification d'une Nintendo NES
-image: Nintendo NES comme neuve.jpg
+excerpt: Nintendo NES entièrement démontée et modée RCA et Led bleue
+image: Nintendo NES - Blue Led Mod - Front Face.jpg
 categories: [Réparation, Restauration, Console]
 tags: [Nintendo NES]
 ---
@@ -13,18 +14,20 @@ Les composants que j’ai utilisés :
 *  2 résistances de 47Ω (Jaune – Violet – Noir – Or)
 *  1 led bleue
 
-Les outils que j’ai utilisés:
+{% spacer %}
 
+Les outils que j’ai utilisés:
 
 {% image_gallery %}
     forets.jpg
-    aspirateur.jpg
+    fer-a-souder.jpg
     divers-outils.jpg
     divers-outils-2.jpg
     dremel.jpg
-    fer-a-souder.jpg
     multimetre.jpg
 {% endimage_gallery %}
+
+{% spacer %}
 
 A la base, elle était sacrément cracra – plastiques extérieurs bien sales, 30 ans de poussière...
 
@@ -33,16 +36,17 @@ A la base, elle était sacrément cracra – plastiques extérieurs bien sales, 
     Nintendo NES - sous le capot.jpg
 {% endimage_gallery %}
 
+{% spacer %}
 
 J’ai donc profité des beaux jours et du confinement pour l’ouvrir entièrement et la nettoyer de fond en comble !  
+ 
   
-Au préalable, j’ai évidement sorti toutes les parties électroniques.  
-
-{% image_gallery %}
-    Nintendo NES - demontage des ports manette.jpg
-{% endimage_gallery %}
-
+{% card left "Nintendo NES - demontage des ports manette.jpg" %}
+Au préalable, j’ai évidement sorti toutes les parties électroniques.<br /><br />
 Les connecteurs de manette se sortent par l’avant 😉  
+{% endcard %}
+
+{% spacer %}
 
 Une fois démontée, hop… nettoyage à l’ancienne 😀  
 
@@ -52,13 +56,15 @@ Une fois démontée, hop… nettoyage à l’ancienne 😀
     Nintendo NES - Intérieur nettoyé.jpg
 {% endimage_gallery %}
 
-Une fois bien frottée au Mr Propre et à la brosse à dent classique, elle a retrouvée sa beauté d’antan !
+{% spacer %}
 
-{% image_gallery %}
-    Nintendo NES comme neuve.jpg
-{% endimage_gallery %}
-
+{% card left "Nintendo NES comme neuve.jpg" %}
+<br /><br />
+Une fois bien frottée au Mr Propre et à la brosse à dent classique, elle a retrouvée sa beauté d’antan !  <br /><br />
 Sérieux, elle est pas belle ?
+{% endcard %}
+
+{% spacer %}
 
 Pour la suite, j’ai attaqué le mod RCA et le dézonage – j’ai rien inventé… je me suis basé sur les vidéos de [Green Hill Memories](https://youtu.be/g8hoinG8hks) et des [mondes de Ralph](https://youtu.be/vAyGtHh5F_A).
 
@@ -68,6 +74,8 @@ J’ai récupéré un PCB RCA dans un vieux lecteur de DVD et l’ai usiné et m
     Nintendo NES Mod - PCB RCA - étape 1.jpg
     Nintendo NES Mod - PCB RCA - étape 2.jpg
 {% endimage_gallery %}
+
+{% spacer %}
 
 Ensuite, perçage de la coque de la Nintendo NES.
 
@@ -81,34 +89,28 @@ __Ne faites pas comme moi, je l’ai positionné trop bas et me suis bien galér
     Nintendo NES Mod RCA - Positionnement du PCB - étape 4.jpg
 {% endimage_gallery %}
 
-Le résultat est plutot discret à l'intérieur:
+{% spacer %}
 
-{% image_gallery "Nintendo NES - RCA Mod" %}
-    Nintendo NES Mod RCA - Vue de l'intérieur.jpg
-{% endimage_gallery %}
+{% card right "Nintendo NES - RCA Mod/Nintendo NES Mod RCA - Vue de l'intérieur.jpg" %}
+   Le résultat est plutôt discret à l'intérieur
+{% endcard %}
 
+{% spacer %}
 
-
-Pour résumer un peu:
+Pour résumer un peu les changement sur le back, ainsi que sur le front (changement de la résistance R2 de 510Ω par la seconde 47Ω).
 
 {% image_gallery "Nintendo NES - RCA Mod" %}
     Nintendo NES Mod RCA - RESUME.jpg
-{% endimage_gallery %}
-
-
-
-De l’autre coté, j’ai également changé la résistance R2 de 510Ω par la seconde 47Ω.
-
-{% image_gallery "Nintendo NES - RCA Mod" %}
     Nintendo NES Mod RCA - Resistance 47 Ohms.png
 {% endimage_gallery %}
 
+{% spacer %}
 
-Au passage aussi, j’ai remplacé la led rouge par une bleue pour passer en mode kéké 😀
+{% card left "Nintendo NES - Led Bleue.jpg" %}  
+    Au passage aussi, j’ai remplacé la led rouge par une bleue pour passer en mode kéké 😀
+{% endcard %}
 
-{% image_gallery %}
-    Nintendo NES - Led Bleue.jpg
-{% endimage_gallery %}
+{% spacer %}
 
 Le résultat est pas mal quand même !
 
@@ -116,7 +118,8 @@ Le résultat est pas mal quand même !
     Nintendo NES - Resultat 1.jpg
     Nintendo NES - Resultat 2.jpg
     Nintendo NES - Resultat 3.jpg
-    Nintendo NES - Resultat 4.jpg
 {% endimage_gallery %}
 
-{% youtube bDeXmro6vEg 560 315 %}
+{% youtube bDeXmro6vEg 1000 562 %}
+
+

@@ -1,5 +1,8 @@
+$marge: 24px;
+
 .gallery-block {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
@@ -22,13 +25,13 @@
     }
 
     > li {
-      margin: 0 16px 16px 0;
+      margin: 0 $marge $marge 0;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
       justify-content: center;
       position: relative;
-      width: calc((100% - 16px)/2);
+      width: calc((100% - #{$marge})/2);
 
       > figure {
         display: flex;
@@ -58,8 +61,8 @@
   .gallery-block.columns-3 {
     > ul {
       > li {
-        width: calc((100% - 32px)/3);
-        margin-right: 16px;
+        width: calc((100% - #{2 * $marge})/3);
+        margin-right: $marge;
       }
       > li:nth-of-type(3n),
       > li:last-child {

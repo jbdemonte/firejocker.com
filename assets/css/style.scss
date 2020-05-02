@@ -4,6 +4,8 @@
 @import 'jekyll-theme-hacker';
 @import 'image-gallery';
 
+$container-spacing: 20px;
+
 header {
   a {
     text-decoration: none;
@@ -37,5 +39,102 @@ header {
   h1 + small {
     font-size: 0.7em;
     color: grey;
+  }
+}
+
+header {
+  margin-bottom: $container-spacing;
+}
+
+header > .container,
+#main_content > .container {
+  padding: $container-spacing;
+  background: #1E1E1E;
+}
+
+.gallery-block + p {
+  margin-top: 50px;
+}
+
+.spacer {
+  background: #161616;
+  height: 40px;
+  width: calc(100% + #{2 * $container-spacing});
+  position: relative;
+  left: -$container-spacing;
+}
+
+iframe.video {
+  display: block;
+  margin: 20px auto;
+}
+
+.card {
+  display: flex;
+
+  &.left {
+    flex-direction: row;
+    p {
+      padding-left: 20px;
+    }
+  }
+
+  &.right {
+    flex-direction: row-reverse;
+    p {
+      padding-right: 20px;
+    }
+  }
+
+  img {
+    height: auto;
+    width: 33%;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  div.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#main_content .posts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  > * {
+    width: 33%;
+    background: #2f2f2f;
+    margin: 20px;
+
+    div {
+      padding: 10px;
+    }
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    text-shadow: none;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .date {
+    display: block;
+    text-align: right;
+    color: #969696;
   }
 }
