@@ -1,16 +1,16 @@
 ---
 layout: post
 date: 2020-03-28
-title: Réparation de l’alimentation d’une Nintendo NES
+title: Réparation de l'alimentation d'une Nintendo NES
 excerpt: Démontage et réparation du câble d'alimentation d'une Nintendo NES
 image: Interieur du bloc d'alimentation de la Nintendo NES.jpg
 categories: [Réparation, Console]
 tags: [Nintendo NES]
 ---
 
-Ce samedi, j’ai décidé de réparer l’alimentation d’une **Nintendo NES** qui avait été bricolée par le passé.
+Ce samedi, j'ai décidé de réparer l'alimentation d'une **Nintendo NES** qui avait été bricolée par le passé.
 
-Les outils que j’ai utilisés:
+Les outils que j'ai utilisés:
 
 {% image_gallery "outils" %}
     pinces.jpg
@@ -39,5 +39,5 @@ Donc je refais propre avec de la gaine thermorétractable :
 
 {% spacer %}
 
-Et c’est prêt 😀
+Et c'est prêt 😀
 

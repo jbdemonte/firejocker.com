@@ -8,15 +8,15 @@ categories: [Réparation, Restauration, Console]
 tags: [Nintendo NES]
 ---
 
-J’ai acheté il y a peu une **Nintendo NES** en loose sur LeBonCoin (15€).  
-Principalement car j’ai profité d’un prix de lot avec l’achat d’une Sega Master System 2 (mon but initial).  
-Les composants que j’ai utilisés : 
+J'ai acheté il y a peu une **Nintendo NES** en loose sur LeBonCoin (15€).  
+Principalement car j'ai profité d'un prix de lot avec l'achat d'une Sega Master System 2 (mon but initial).  
+Les composants que j'ai utilisés : 
 *  2 résistances de 47Ω (Jaune – Violet – Noir – Or)
 *  1 led bleue
 
 {% spacer %}
 
-Les outils que j’ai utilisés:
+Les outils que j'ai utilisés:
 
 {% image_gallery %}
     forets.jpg
@@ -38,17 +38,17 @@ A la base, elle était sacrément cracra – plastiques extérieurs bien sales, 
 
 {% spacer %}
 
-J’ai donc profité des beaux jours et du confinement pour l’ouvrir entièrement et la nettoyer de fond en comble !  
+J'ai donc profité des beaux jours et du confinement pour l'ouvrir entièrement et la nettoyer de fond en comble !  
  
   
 {% card left "Nintendo NES - demontage des ports manette.jpg" %}
-Au préalable, j’ai évidement sorti toutes les parties électroniques.<br /><br />
-Les connecteurs de manette se sortent par l’avant 😉  
+Au préalable, j'ai évidement sorti toutes les parties électroniques.<br /><br />
+Les connecteurs de manette se sortent par l'avant 😉  
 {% endcard %}
 
 {% spacer %}
 
-Une fois démontée, hop… nettoyage à l’ancienne 😀  
+Une fois démontée, hop… nettoyage à l'ancienne 😀  
 
 {% image_gallery %}
     Nintendo NES - Nettoyage à l'eau.jpg
@@ -60,15 +60,15 @@ Une fois démontée, hop… nettoyage à l’ancienne 😀
 
 {% card left "Nintendo NES comme neuve.jpg" %}
 <br /><br />
-Une fois bien frottée au Mr Propre et à la brosse à dent classique, elle a retrouvée sa beauté d’antan !  <br /><br />
+Une fois bien frottée au Mr Propre et à la brosse à dent classique, elle a retrouvée sa beauté d'antan !  <br /><br />
 Sérieux, elle est pas belle ?
 {% endcard %}
 
 {% spacer %}
 
-Pour la suite, j’ai attaqué le mod RCA et le dézonage – j’ai rien inventé… je me suis basé sur les vidéos de [Green Hill Memories](https://youtu.be/g8hoinG8hks) et des [mondes de Ralph](https://youtu.be/vAyGtHh5F_A).
+Pour la suite, j'ai attaqué le mod RCA et le dézonage – j'ai rien inventé… je me suis basé sur les vidéos de [Green Hill Memories](https://youtu.be/g8hoinG8hks) et des [mondes de Ralph](https://youtu.be/vAyGtHh5F_A).
 
-J’ai récupéré un PCB RCA dans un vieux lecteur de DVD et l’ai usiné et modifié pour lui ajouter la résistance de 47Ω pour le signal vidéo.
+J'ai récupéré un PCB RCA dans un vieux lecteur de DVD et l'ai usiné et modifié pour lui ajouter la résistance de 47Ω pour le signal vidéo.
 
 {% image_gallery "Nintendo NES - RCA Mod" %}
     Nintendo NES Mod - PCB RCA - étape 1.jpg
@@ -79,7 +79,7 @@ J’ai récupéré un PCB RCA dans un vieux lecteur de DVD et l’ai usiné et m
 
 Ensuite, perçage de la coque de la Nintendo NES.
 
-__Ne faites pas comme moi, je l’ai positionné trop bas et me suis bien galéré pour ré-usiner le PCB à plusieurs reprises__
+__Ne faites pas comme moi, je l'ai positionné trop bas et me suis bien galéré pour ré-usiner le PCB à plusieurs reprises__
 
 {% image_gallery "Nintendo NES - RCA Mod" %}
     Nintendo NES - Trous de perçage.jpg
@@ -107,7 +107,7 @@ Pour résumer un peu les changement sur le back, ainsi que sur le front (changem
 {% spacer %}
 
 {% card left "Nintendo NES - Led Bleue.jpg" %}  
-    Au passage aussi, j’ai remplacé la led rouge par une bleue pour passer en mode kéké 😀
+    Au passage aussi, j'ai remplacé la led rouge par une bleue pour passer en mode kéké 😀
 {% endcard %}
 
 {% spacer %}
