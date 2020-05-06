@@ -16,10 +16,12 @@ url: "https://jbdemonte.github.io" # the base hostname & protocol for your site,
 google_analytics:
 lang: fr-FR
 permalink: /:year/:month/:day/:title:output_ext
+paginate: 9
+paginate_path: "/page:num/"
 
 # Build settings
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

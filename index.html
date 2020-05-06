@@ -2,9 +2,44 @@
 layout: default
 ---
 
+{% assign column_count = 3 %}
+{% assign last_row_modulo = paginator.posts.size | modulo: column_count %}
+
 <div class="posts">
-{% for post in site.posts limit:3 %}
+{% for post in paginator.posts %}
+    {% assign idx = forloop.index | modulo: column_count %}
+    {% if forloop.index > 1 and idx == 1 %}
+        </div><div class="posts">
+    {% endif %}
     {% include postbox.html %}
 {% endfor %}
+{% if last_row_modulo != 0 %}
+    <div class="post-stuffing"></div>
+{% endif %}
 </div>
 
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Page précédente</a>
+    {% else %}
+    <span>&laquo; Page précédente</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <em>{{ page }}</em>
+    {% elsif page == 1 %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+    {% else %}
+    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Page suivante &raquo;</a>
+    {% else %}
+    <span>Page suivante &raquo;</span>
+    {% endif %}
+</div>
+{% endif %}

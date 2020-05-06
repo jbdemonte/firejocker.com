@@ -163,6 +163,10 @@ iframe.video {
       font-size: 0.75em;
     }
   }
+
+  > .post-stuffing {
+    width: 33%;
+  }
 }
 
 
@@ -174,6 +178,28 @@ iframe.video {
     flex: 1 1 auto;
   }
 }
+
+.pagination {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  * {
+    font-size: 1em;
+    margin: 5px;
+  }
+
+  span {
+    color: #545454;
+  }
+
+  em {
+    color: orange;
+  }
+}
+
 
 @media (max-width: 600px) {
   header {
