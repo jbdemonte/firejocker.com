@@ -3,7 +3,7 @@ layout: post
 date: 2020-03-27
 title: Restauration & modification d'une Nintendo NES
 excerpt: Nintendo NES entièrement démontée et modée RCA et Led bleue
-image: Nintendo NES - Blue Led Mod - Front Face.jpg
+image: thumb.png
 categories: [Réparation, Restauration, Console]
 tags: [Nintendo NES]
 ---

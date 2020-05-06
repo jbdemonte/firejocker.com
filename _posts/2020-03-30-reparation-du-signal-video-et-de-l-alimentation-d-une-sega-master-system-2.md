@@ -3,7 +3,7 @@ layout: post
 date: 2020-03-30
 title: Réparation du signal vidéo et de l'alimentation d'une Sega Master System 2
 excerpt: Cette panne est vraiment un pur classique de la Sega Master System 2, et sa réparation prend 5 minutes !
-image: Sega-Master-System-2-Alex-Kidd.jpg
+image: thumb.jpg
 categories: [Réparation, Console]
 tags: [Sega Master System 2]
 ---

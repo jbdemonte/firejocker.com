@@ -3,7 +3,7 @@ layout: post
 date: 2020-03-31
 title: Conversion d’une alimentation lambda pour la Sega Master System 1 ou 2
 excerpt: Il est possible d'utiliser un bloc transformateur pour alimenter sa Sega Master System 1 ou 2 
-image: Alimentation Sega Master System 2 - Verification de la polarite.jpg
+image: thumb.jpg
 categories: [Récupération, Console]
 tags: [Sega Master System 2]
 ---
