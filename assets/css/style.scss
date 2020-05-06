@@ -213,4 +213,32 @@ iframe.video {
       }
     }
   }
+
+  #main_content {
+    .card {
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: inherit;
+        max-width: 96%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .card.right {
+      flex-direction: column-reverse;
+    }
+
+    .emoji-card div.img{
+      width: 20%;
+      font-size: 3em;
+    }
+
+    iframe.video {
+      max-width: 96%;
+      height: auto;
+    }
+  }
 }
