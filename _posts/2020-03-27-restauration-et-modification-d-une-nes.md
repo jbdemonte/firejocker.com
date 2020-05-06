@@ -48,7 +48,7 @@ Les connecteurs de manette se sortent par l'avant 😉
 
 {% spacer %}
 
-Une fois démontée, hop… nettoyage à l'ancienne 😀  
+Une fois démontée, hop... nettoyage à l'ancienne 😀  
 
 {% image_gallery %}
     Nintendo NES - Nettoyage à l'eau.jpg
@@ -66,7 +66,7 @@ Sérieux, elle est pas belle ?
 
 {% spacer %}
 
-Pour la suite, j'ai attaqué le mod RCA et le dézonage – j'ai rien inventé… je me suis basé sur les vidéos de [Green Hill Memories](https://youtu.be/g8hoinG8hks) et des [mondes de Ralph](https://youtu.be/vAyGtHh5F_A).
+Pour la suite, j'ai attaqué le mod RCA et le dézonage – j'ai rien inventé... je me suis basé sur les vidéos de [Green Hill Memories](https://youtu.be/g8hoinG8hks) et des [mondes de Ralph](https://youtu.be/vAyGtHh5F_A).
 
 J'ai récupéré un PCB RCA dans un vieux lecteur de DVD et l'ai usiné et modifié pour lui ajouter la résistance de 47Ω pour le signal vidéo.
 

@@ -76,9 +76,12 @@ iframe.video {
 
 .img-container {
   text-align: center;
+  margin-bottom: 24px;
 }
 
-.card {
+.card,
+.emoji-card {
+  margin-bottom: 20px;
   display: flex;
 
   &.left {
@@ -95,9 +98,15 @@ iframe.video {
     }
   }
 
-  img {
+  img,
+  div.img {
     height: auto;
     width: 33%;
+  }
+
+  div.img {
+    text-align: center;
+    font-size: 5em;
   }
 
   p {
