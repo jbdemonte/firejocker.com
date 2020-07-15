@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
+    <title>Clone Everdrive N8 et carte SD sous Mac</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a href="/">
+          <img src="/assets/images/FireJocker.png" alt="Logo Firejocker" />
+          <span>Firejocker Web Page</span>
+        </a>
+        <span>Bricoler, réparer, recycler et le prôner !</span>
+      </div>
+    </header>
+
+    <section id="main_content">
+      <div class="container">
+        <h1>Clone Everdrive N8 et carte SD sous Mac</h1>
+<small>
+  Article publié le
+  <time datetime="2020-07-15">
+    Mercredi 15 juillet 2020
+  </time>
+</small>
+
+
+<p>Aujourd’hui, j’ai reçu mon clone d’everdrive N8 acheté sur <a href="https://fr.aliexpress.com/item/4000299659343.html">Ali</a>.</p>
+
+<div class="gallery-block columns-3">
+<ul>
+<li><figure><img src="/assets/posts/2020-07-15-clone-everdrive-n8-carte-sd-mac//clone-everdrive-n8-nintendo-nes.jpg" alt="clone-everdrive-n8-nintendo-nes" /></figure></li>
+</ul>
+</div>
+
+<p>La cartouche est propre et semble assez qualitative. Cependant, je ne suis pas fans de la SD qui est fournie, enfin, du moins de l’organisation de ses répertoires :</p>
+
+<div class="gallery-block columns-3">
+<ul>
+<li><figure><img src="/assets/posts/2020-07-15-clone-everdrive-n8-carte-sd-mac//N8-folders.png" alt="N8-folders" /></figure></li>
+<li><figure><img src="/assets/posts/2020-07-15-clone-everdrive-n8-carte-sd-mac//N8-games.png" alt="N8-games" /></figure></li>
+</ul>
+</div>
+
+<div class="spacer"></div>
+
+<p>J’ai donc entrepris de faire ma propre carte SD (J’ai évidement pas modifié celle fournie… au cas ou).</p>
+
+<p>Voici les quelques informations que j’ai pu glaner sur le <a href="http://krikzz.com/forum/index.php?topic=2554.0">web</a> concernant le format à utiliser :</p>
+
+<ul>
+  <li>Formatter la SD en FAT32</li>
+  <li>Pas plus de 256 éléments dans un répertoire (J’ai organisé par premiere Lettre)</li>
+  <li>Jeux non zippé (format *.nes)</li>
+</ul>
+
+<p>Ce que j’ai pu tester :</p>
+
+<ul>
+  <li>Pas de soucis avec les noms de jeu à rallonge</li>
+  <li>Pas de soucis avec le fait que la SD ai un nom même si j’ai souvent vu qu’il n’en fallait pas</li>
+</ul>
+
+<p>Le clone utilise les fichiers officiels de krikzz, le mien contenait <a href="http://krikzz.com/pub/support/everdrive-n8/original-series/OS/">nesos-v1.23.zip</a> (j’ai vérifié les md5).</p>
+
+<div class="spacer"></div>
+
+<h2 id="formater-la-carte-sd-pour-le-clone-de-leverdrive-n8-pour-nintendo-nes-avec-le-mac">Formater la carte SD pour le clone de l’everdrive N8 pour Nintendo NES avec le Mac</h2>
+
+<p>Donc, pour formater une carte SD avec un Mac (macOS Catalina) pour cet everdrive, ouvrir un invité de commande puis :</p>
+
+<p>Identifier la carte SD avec :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>diskutil list
+</code></pre></div></div>
+
+<p>La mienne est sur <em>/dev/disk2</em>, donc c’est ce que j’utiliserai dans la commande suivante</p>
+
+<p>Formatter alors la carte en FAT32 avec MBR sur le Mac avec :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>diskutil eraseDisk MS-DOS N8 MBR /dev/disk2
+</code></pre></div></div>
+
+<p>J’ai nommé ma carte SD <em>N8</em>, c’est évidemment remplaçable.</p>
+
+<h2 id="copier-los-sur-la-sd">Copier l’OS sur la SD</h2>
+
+<p>Télécharger le dernier nesOS sur la <a href="http://krikzz.com/pub/support/everdrive-n8/original-series/OS/">page de téléchargement de Krikzz</a> puis le décompresser à la racine de la carte SD</p>
+
+<h2 id="copier-les-jeux">Copier les jeux</h2>
+
+<p>Décompresser les jeux sur la carte SD, en respectant le fait de ne pas en mettre plus de 256 dans un répertoire</p>
+
+<h2 id="enjoy">Enjoy</h2>
+
+<p>Remettre la SD dans la cartouche et jouer :D</p>
+
+<div class="spacer"></div>
+
+<h2 id="les-commandes">Les commandes</h2>
+
+<h3 id="charger-un-jeu">Charger un jeu</h3>
+
+<p>Démarrez votre Famicom / NES. Vous pouvez maintenant naviguer dans la structure des fichiers comme dans l’explorateur Windows ou le Finder de Mac.</p>
+
+<ul>
+  <li>Utiliser “B” pour “Valider”</li>
+  <li>Utiliser “A” pour “Revenir”</li>
+  <li>“SELECT” affiche le menu</li>
+  <li>“START” lance le dernier jeu chargé</li>
+</ul>
+
+<h3 id="chargement-et-sauvegarde-des-états-de-jeu">Chargement et sauvegarde des états de jeu</h3>
+
+<p>Pour chaque jeu, vous pouvez faire un “instantané” des progrès en cours. Pour ce faire, appuyez sur une combinaison de boutons que vous pouvez configurer vous-même</p>
+
+<ul>
+  <li>Démarrez votre console</li>
+  <li>Lorsque le système d’exploitation Everdrive est chargé, appuyez sur “SELECT”.</li>
+  <li>Choisissez “Options” et appuyez sur B</li>
+  <li>Choisissez les options de chargement et de sauvegarde des jeux</li>
+  <li>Suivez les instructions (c’est-à-dire appuyez sur la combinaison que vous voulez utiliser pour le chargement ou la sauvegarde)</li>
+</ul>
+
+
+
+
+  <div class="spacer"></div>
+  <small class="tags">tags: <em>Nintendo</em> - <em>Everdrive</em></small>
+
+
+      </div>
+    </section>
+
+    
+  </body>
+</html>
